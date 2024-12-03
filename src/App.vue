@@ -18,7 +18,7 @@
 
 <script>
 export default {
-  name: 'App',
+  name: 'Monoki Links',
   data(){
     return {
       dec : '여기는 모노키의 링크들을 모아둔 곳이에요.',
