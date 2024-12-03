@@ -3,11 +3,11 @@
     <h1>모노키</h1>
     <p>{{ dec }}</p>
   </div>
-  <div style="display: flex; flex-wrap: wrap; justify-content: space-between; gap: 10px;">
+  <div style="display: flex; flex-wrap: wrap; justify-content: space-between; gap: 10px; margin-top: 10px;">
     <div v-for="(item, i) in link" :key="i" class="linkbox">
       <div>
         <h3>{{ item.title }}</h3>
-        <p>{{ item.description }}</p>        
+        <p>{{ item.description }}</p>
       </div>
       <a :href="item.url" target="_blank">
         <button>바로가기</button>
@@ -44,7 +44,7 @@ export default {
     align-items: center;
     min-width: 300px;
     border-radius: 10px;
-    margin-top: 16px;
+    margin-top: 5px;
     padding: 18px;
     background-color: var(--color-background-soft);
   }
