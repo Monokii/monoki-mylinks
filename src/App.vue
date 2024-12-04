@@ -26,6 +26,7 @@ export default {
         {title: '우리.인생', description: '@so', url: "https://uri.life/@so"},
         {title: '스텔라.플레이스', description: '@so', url: 'https://stella.place/@so'},
         {title: '버터스콘', description: '@mono', url: 'https://buttersc.one/@mono'},
+        {title: '블루스카이', description: '@yume.place', url: 'https://bsky.app/profile/yume.place'},
         {title: '깃허브', description: '@monokii', url: 'https://github.com/Monokii'},
         {title: '퀘스돈@플래닛', description: '@so@uri.life', url: 'https://quesdon.planet.moe/@so@uri.life'},
         {title: '네오-퀘스돈', description: '@so@uri.life', url: 'https://neo-quesdon.serafuku.moe/main/user/@so@uri.life'},
