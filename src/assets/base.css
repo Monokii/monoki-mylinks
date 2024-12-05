@@ -3,10 +3,12 @@
   --vt-c-white: #ffffff;
   --vt-c-white-soft: #ffffff;
   --vt-c-white-mute: #d1d5d7;
+  --vt-c-white-hover: #ffffff;
   
   --vt-c-black: #0b0b0d;
   --vt-c-black-soft: #16161c;
   --vt-c-black-mute: #282828;
+  --vt-c-black-hover: #1b1b25;
 
   --vt-c-indigo: #2c3e50;
 
@@ -26,6 +28,7 @@
   --color-background: var(--vt-c-white);
   --color-background-r: var(--vt-c-black);
   --color-background-rh: var(--vt-c-text-dark-2);
+  --color-background-hover: var(--vt-c-white-hover);
   --color-background-soft: var(--vt-c-white-soft);
   --color-background-mute: var(--vt-c-white-mute);
 
@@ -43,6 +46,7 @@
     --color-background: var(--vt-c-black);
     --color-background-r: var(--vt-c-white);
     --color-background-rh: var(--vt-c-white-mute);
+    --color-background-hover: var(--vt-c-black-hover);
     --color-background-soft: var(--vt-c-black-soft);
     --color-background-mute: var(--vt-c-black-mute);
 
@@ -70,19 +74,7 @@ body {
     color 0.5s,
     background-color 0.5s;
   line-height: 1.5;
-  font-family: "Pretendard Variable", 
-                -apple-system, 
-                BlinkMacSystemFont, 
-                system-ui, Roboto, 
-                "Helvetica Neue", 
-                "Segoe UI", 
-                "Apple SD Gothic Neo", 
-                "Noto Sans KR", 
-                "Malgun Gothic", 
-                "Apple Color Emoji", 
-                "Segoe UI Emoji", 
-                "Segoe UI Symbol", 
-                sans-serif;
+  font-family: "Pretendard Variable";
   font-size: 16px;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -90,5 +82,5 @@ body {
 }
 h1, h2, h3, h4, h5, h6 {
   color: var(--color-heading);
-  font-weight: 600;
+  font-weight: 700;
 }
