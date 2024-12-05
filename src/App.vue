@@ -63,7 +63,7 @@ export default {
     margin-top: 5px;
     padding: 14px 18px;
     gap: 20px;
-    background-color: var(--color-background-soft);
+    background-color: var(--color-background-hover);
     border: solid var(--color-background-r) 2px;
     transition-delay: 1s;
     transform: scale(1.1);
