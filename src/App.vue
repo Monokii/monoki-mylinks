@@ -18,7 +18,6 @@
   </div>
   <div style="margin: 20px 0px;">
     <p>{{ ver }}</p>
-    <p>와, 나 태어난 날이다.</p>
   </div>    
 </template>
 
@@ -33,14 +32,18 @@ export default {
         {title: '스텔라.플레이스', description: '우리.인생이랑 둘 다 쓰다가 놔버린 곳이에요.', url: 'https://stella.place/@so'},
         {title: '버터스콘', description: '귀여워서 마음에는 들지만, 규칙이 저와는 안 맞아 보여요.', url: 'https://buttersc.one/@mono'},
         {title: '표현의 모에', description: '발언의 자유와 개인정보를 중점 운영이지만, 쓸지는 모름.', url: 'https://feels.moe/@monoki'},
+        {title: '칸노트', description: '계정 만들어 놓고 까먹은 곳이에요.', url: 'https://iqhina.org/@o'},
         {title: '블루스카이', description: '트위터 탈중앙화 버전인데, 잘 안 써요.', url: 'https://bsky.app/profile/yume.place'},
         {title: '깃허브', description: '그냥 저의 깃허브 프로필 이에요, 딱히 뭐 없어요.', url: 'https://github.com/Monokii'},
         {title: '치지직', description: '흠?', url: 'https://chzzk.naver.com/8ce3e9df8179191c4e412a20065fbe1a'},
+        {title: '유튜브', description: '그냥 링크 걸려고 만들었어요.', url: 'https://www.youtube.com/@yume_place'},
+        {title: '니코니코(재:시작)', description: '왜 만든 걸까?', url: 'https://www.nicovideo.jp/user/136988492/video'},
         {title: '로블록스 프로필', description: '2017년 1월 부터 시작했어요, 나쁘게 안 봐주셨으면 좋겠네요.', url: 'https://www.roblox.com/ko/users/3638705580/profile'},
         {title: '퀘스돈@플래닛', description: '질문 해보세요, 기다리고 있어요.', url: 'https://quesdon.planet.moe/@so@uri.life'},
         {title: '네오-퀘스돈', description: '질문 해보세요, 기다리고 있어요.', url: 'https://neo-quesdon.serafuku.moe/main/user/@so@uri.life'},
+        {title: '실험적', description: '그냥 이것저것하는 사이트예요.', url: 'https://yume.place'},
       ],
-      ver : '12-09-2024v(meday)',
+      ver : '12-09-2024v (NV4WIYLZ)',
     }
   },
 }
