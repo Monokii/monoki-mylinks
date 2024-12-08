@@ -40,7 +40,7 @@ export default {
         {title: '퀘스돈@플래닛', description: '질문 해보세요, 기다리고 있어요.', url: 'https://quesdon.planet.moe/@so@uri.life'},
         {title: '네오-퀘스돈', description: '질문 해보세요, 기다리고 있어요.', url: 'https://neo-quesdon.serafuku.moe/main/user/@so@uri.life'},
       ],
-      ver : '12-07-2024v',
+      ver : '12-09-2024v(meday)',
     }
   },
 }
