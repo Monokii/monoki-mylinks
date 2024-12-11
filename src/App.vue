@@ -38,12 +38,12 @@ export default {
         {title: '치지직', description: '흠?', url: 'https://chzzk.naver.com/8ce3e9df8179191c4e412a20065fbe1a'},
         {title: '유튜브', description: '그냥 링크 걸려고 만들었어요.', url: 'https://www.youtube.com/@yume_place'},
         {title: '니코니코(다시:돌아옴)', description: '왜 만든 걸까?', url: 'https://www.nicovideo.jp/user/136988492/video'},
-        {title: '로블록스 프로필', description: '2017년 1월 부터 시작했어요, 나쁘게 안 봐주셨으면 좋겠네요.', url: 'https://www.roblox.com/ko/users/3638705580/profile'},
+        {title: '로블록스 프로필', description: '2017년 1월 부터 시작했어요, 넷카마 아니에요.', url: 'https://www.roblox.com/ko/users/3638705580/profile'},
         {title: '퀘스돈@플래닛', description: '질문 해보세요, 기다리고 있어요.', url: 'https://quesdon.planet.moe/@so@uri.life'},
         {title: '네오-퀘스돈', description: '질문 해보세요, 기다리고 있어요.', url: 'https://neo-quesdon.serafuku.moe/main/user/@so@uri.life'},
-        {title: '실험적', description: '그냥 이것저것하는 사이트예요.', url: 'https://yume.place'},
+        {title: '실험용', description: '내가 하고싶은 걸 시도해보고, 여러가지를 하는 곳.', url: 'https://yume.place'},
       ],
-      ver : '12-09-2024v-2 (NV4WIYLZ)',
+      ver : '12-11-2024add-1',
     }
   },
 }
