@@ -43,7 +43,7 @@ export default {
   name: 'App',
   data(){
     return {
-      dec : '여기는 모노키의 링크들을 모아둔 곳이에요.',
+      dec : '여기는 모노키의 링크들을 모아둔 곳이에요.<br/>사이트 이름들은 제 마음대로 부를 거예요.',
       link : [
         {title: '우리.인생', description: '제가 주로 톳을 올리는 곳이죠.', url: "https://uri.life/@so"},
         {title: '스텔라.플레이스', description: '우리.인생이랑 둘 다 쓰다가 놔버린 곳이에요.', url: 'https://stella.place/@so'},
@@ -54,12 +54,12 @@ export default {
         {title: '깃허브', description: '그냥 저의 깃허브 프로필 이에요, 딱히 뭐 없어요.', url: 'https://github.com/Monokii'},
         {title: '치지직', description: '흠?', url: 'https://chzzk.naver.com/8ce3e9df8179191c4e412a20065fbe1a'},
         {title: '유튜브', description: '그냥 링크 걸려고 만들었어요.', url: 'https://www.youtube.com/@yume_place'},
-        {title: '니코니코(다시:돌아옴)', description: '아 nicopatty가 생각나요.', url: 'https://www.nicovideo.jp/user/136988492/video'},
+        {title: '도코도코(다시:돌아옴)', description: '아 nicopatty가 생각나요.', url: 'https://www.nicovideo.jp/user/136988492/video'},
         {title: '로블록스 프로필', description: '2017년 1월 부터 시작했어요, 넷카마 아니에요.', url: 'https://www.roblox.com/ko/users/3638705580/profile'},
         {title: '퀘스돈@플래닛', description: '질문 해보세요, 기다리고 있어요.', url: 'https://quesdon.planet.moe/@so@uri.life'},
         {title: '네오-퀘스돈', description: '질문 해보세요, 기다리고 있어요.', url: 'https://neo-quesdon.serafuku.moe/main/user/@so@uri.life'},
         {title: '실험용1', description: '내가 하고싶은 걸 시도해보고, 여러가지를 하는 곳.', url: 'https://yume.place/'},
-        {title: '실험용2', description: '실험용 2임. 설명은 1과 같음.', url: 'https://sonnect.co/'},
+        {title: '실험용2', description: '도메인은 소셜 + 커넥트. TLD는 커뮤니티(co)임.', url: 'https://sonnect.co/'},
       ],
       memu : [
         {title: '링크'},
