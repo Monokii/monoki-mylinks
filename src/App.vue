@@ -55,16 +55,18 @@ export default {
         {title: '치지직', description: '흠?', url: 'https://chzzk.naver.com/8ce3e9df8179191c4e412a20065fbe1a'},
         {title: '유튜브', description: '그냥 링크 걸려고 만들었어요.', url: 'https://www.youtube.com/@yume_place'},
         {title: '도코도코(다시:돌아옴)', description: '아 nicopatty가 생각나요.', url: 'https://www.nicovideo.jp/user/136988492/video'},
-        {title: '로블록스 프로필', description: '2017년 1월 부터 시작했어요, 넷카마 아니에요.', url: 'https://www.roblox.com/ko/users/3638705580/profile'},
-        {title: '퀘스돈@플래닛', description: '질문 해보세요, 기다리고 있어요.', url: 'https://quesdon.planet.moe/@so@uri.life'},
-        {title: '네오-퀘스돈', description: '질문 해보세요, 기다리고 있어요.', url: 'https://neo-quesdon.serafuku.moe/main/user/@so@uri.life'},
+        {title: '샤오훙수', description: '특정 그림 아티스트 보려고 가입했어요. 241218', url: 'https://www.xiaohongshu.com/user/profile/6761b7480000000018014c9f'},
+        {title: 'X', description: '사용자 이름 정리 다 되면 그 때 링크할 거임.', url: 'https://x.com/404'},
+        {title: '로블록스 프로필', description: '2017년 1월 부터 시작했어요, 넷카마 아니에요.', url: 'https://www.roblox.com/users/3638705580/profile'},
+        {title: '퀘스돈@플래닛', description: '질문 하던말던.', url: 'https://quesdon.planet.moe/@so@uri.life'},
+        {title: '네오-퀘스돈', description: '질문 하던말던.', url: 'https://neo-quesdon.serafuku.moe/main/user/@so@uri.life'},
         {title: '실험용1', description: '내가 하고싶은 걸 시도해보고, 여러가지를 하는 곳.', url: 'https://yume.place/'},
         {title: '실험용2', description: '도메인은 소셜 + 커넥트. TLD는 커뮤니티(co)임.', url: 'https://sonnect.co/'},
       ],
       memu : [
         {title: '링크'},
       ],
-      ver : '12-14-2024-2',
+      ver : '12-14-2024-3',
     }
   },
 }
