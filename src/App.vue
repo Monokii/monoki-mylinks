@@ -22,9 +22,12 @@
       </div>
       <div style="display: flex; flex-wrap: wrap; justify-content: space-between; gap: 10px; margin-top: 10px;">
         <div v-for="(item, i) in link" :key="i" class="linkbox">
-          <div>
-            <h3>{{ item.title }}</h3>
-            <p>{{ item.description }}</p>
+          <div class="gap20">
+            <div>
+              <h3>{{ item.title }}</h3>
+              <p>{{ item.description }}</p>
+            </div>
+            <img :src="item.logo">
           </div>
           <a :href="item.url" target="_blank">
             <button>이동</button>
@@ -45,14 +48,14 @@ export default {
     return {
       dec : '여기는 모노키의 링크들을 모아둔 곳이에요.<br/>사이트 이름들은 제 마음대로 부를 거예요.',
       link : [
-        {title: '우리.인생', description: '제가 주로 톳을 올리는 곳이죠.', url: "https://uri.life/@so"},
-        {title: '스텔라.플레이스', description: '우리.인생이랑 둘 다 쓰다가 놔버린 곳이에요.', url: 'https://stella.place/@so'},
-        {title: '버터스콘', description: '귀여워서 마음에는 들지만, 규칙이 저와는 안 맞아 보여요.', url: 'https://buttersc.one/@mono'},
-        {title: '표현의 모에', description: '발언의 자유와 개인정보 중점 운영이지만, 쓸지는 모름.', url: 'https://feels.moe/@monoki'},
-        {title: '칸노트', description: '계정 만들어 놓고 까먹은 곳이에요.', url: 'https://iqhina.org/@o'},
-        {title: '블루스카이', description: '트위터 탈중앙화 버전인데, 잘 안 써요.', url: 'https://bsky.app/profile/yume.place'},
-        {title: '깃허브', description: '그냥 저의 깃허브 프로필 이에요, 딱히 뭐 없어요.', url: 'https://github.com/Monokii'},
-        {title: '치지직', description: '흠?', url: 'https://chzzk.naver.com/8ce3e9df8179191c4e412a20065fbe1a'},
+        {title: '우리.인생', description: '제가 주로 톳을 올리는 곳이죠.', url: "https://uri.life/@so", logo: "./src/assets/services-icon/uri-life-logo-vector.svg"},
+        {title: '스텔라.플레이스', description: '음.', url: 'https://stella.place/@so', logo: "https://for.stella.place/assets/Stella_R3_iOS_1024.png"},
+        {title: '버터스콘', description: '귀엽지만, 규칙이 저와는 안 맞아요.', url: 'https://buttersc.one/@mono', logo: "https://box.buttersc.one/bucket/c998ed88-0531-4299-b304-c95f60fb1b16.webp"},
+        {title: '표현의 모에', description: '나쁘지 않지만, 쓸지 모르겠어요.', url: 'https://feels.moe/@monoki', logo: "https://files.feels.moe/feelsmoe/5d38655a-b6a0-4d3a-9be5-dda3e7acee9f.png"},
+        {title: '칸노트', description: '계정 만들어 놓고 까먹은 곳이에요.', url: 'https://iqhina.org/@o', logo: "https://iqhina.org/files/f8433f1c-48f1-4ef5-8aa6-40cc9f254820"},
+        {title: '블루스카이', description: '잘 안 써요.', url: 'https://bsky.app/profile/yume.place', logo: "./src/assets/services-icon/bsky-logo-vector.svg"},
+        {title: '깃허브', description: '딱히 뭐 없어요.', url: 'https://github.com/Monokii', logo: "./src/assets/services-icon/github-logo-vector.svg"},
+        {title: '치지직', description: '흠?', url: 'https://chzzk.naver.com/8ce3e9df8179191c4e412a20065fbe1a', logo: "https://chzzk.org/wp-content/uploads/2023/12/chzzk-app.png"},
         {title: '유튜브', description: '그냥 링크 걸려고 만들었어요.', url: 'https://www.youtube.com/@yume_place'},
         {title: '도코도코(다시:돌아옴)', description: '아 nicopatty가 생각나요.', url: 'https://www.nicovideo.jp/user/136988492/video'},
         {title: '샤오훙수', description: '특정 그림 아티스트 보려고 가입했어요. 241218', url: 'https://www.xiaohongshu.com/user/profile/6761b7480000000018014c9f'},
@@ -74,6 +77,10 @@ export default {
 
 <style scoped>
   @import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable.min.css");
+  img {
+    width: 32px;
+    margin-bottom: 6px;
+  }
   .sidebar {
   width: 250px; /* 사이드바 너비 */
   height: 100vh; /* 화면 전체 높이 */
@@ -140,6 +147,11 @@ export default {
     display: flex;
     flex-direction: column;
     width: 80%;
+  }
+  .gap20 {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
   }
   .linkbox {  
     display: flex;
