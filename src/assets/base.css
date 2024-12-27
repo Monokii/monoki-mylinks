@@ -1,7 +1,7 @@
 /* color palette from <https://github.com/vuejs/theme>, instagram - design_boc */
 :root {
   --vt-c-white: #ffffff;
-  --vt-c-white-soft: #ffffff;
+  --vt-c-white-soft: #f4f5f9;
   --vt-c-white-mute: #d1d5d7;
   --vt-c-white-hover: #ffffff;
   
@@ -9,6 +9,8 @@
   --vt-c-black-soft: #16161c;
   --vt-c-black-mute: #282828;
   --vt-c-black-hover: #20202b;
+
+  --vt-c-monoki: #645ff33a; /* #5fa2f33a */
 
   --vt-c-indigo: #2c3e50;
 
