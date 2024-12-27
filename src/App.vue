@@ -24,7 +24,7 @@
         <div v-for="(item, i) in link" :key="i" class="linkbox">
           <div class="gap20">
             <img :src="item.logo">
-            <div>
+            <div style="display: flex; flex-direction: column; gap: 5px;">
               <h3>{{ item.title }}</h3>
               <p>{{ item.description }}</p>
             </div>
@@ -48,18 +48,18 @@ export default {
     return {
       dec : '여기는 링크를 모아둔 곳이에요. 사이트 이름들은 제 마음대로 부를 거예요.',
       link : [
-        {title: '우리.인생', description: '제가 주로 톳을 올리는 곳이죠.', url: "https://uri.life/@so", logo: "/src/assets/services-icon/uri-life-logo-vector.svg"},
-        {title: '스텔라.플레이스', description: '음.', url: 'https://stella.place/@so', logo: "https://for.stella.place/assets/Stella_R3_iOS_1024.png"},
-        {title: '버터스콘', description: '귀엽지만, 규칙이 저와는 안 맞아요.', url: 'https://buttersc.one/@mono', logo: "https://box.buttersc.one/bucket/c998ed88-0531-4299-b304-c95f60fb1b16.webp"},
-        {title: '표현의 모에', description: '나쁘지 않지만, 쓸지 모르겠어요.', url: 'https://feels.moe/@monoki', logo: "https://files.feels.moe/feelsmoe/5d38655a-b6a0-4d3a-9be5-dda3e7acee9f.png"},
-        {title: '칸노트', description: '계정 만들어 놓고 까먹은 곳이에요.', url: 'https://iqhina.org/@o', logo: "https://iqhina.org/files/f8433f1c-48f1-4ef5-8aa6-40cc9f254820"},
-        {title: '블루스카이', description: '잘 안 써요.', url: 'https://bsky.app/profile/yume.place', logo: "/src/assets/services-icon/bsky-logo-vector.svg"},
+        {title: '우리.인생', description: '주로 게시물 올리는 곳.', url: "https://uri.life/@so", logo: "https://i.imgur.com/NDj2OVz.png"},
+        {title: '스텔라', description: '별이래요.', url: 'https://stella.place/@so', logo: "https://for.stella.place/assets/Stella_R3_iOS_1024.png"},
+        {title: '버터스콘', description: '귀여운데, 규칙이 나랑 안 맞음.', url: 'https://buttersc.one/@mono', logo: "https://box.buttersc.one/bucket/c998ed88-0531-4299-b304-c95f60fb1b16.webp"},
+        {title: '표현의 모에', description: '나쁘지 않지만, 쓸지 모르겠어요.', url: 'https://feels.moe/@monoki', logo: "https://files.feels.moe/feelsmoe/fa819c2a-a29d-46db-910f-ef0ebd75b225.png"},
+        {title: '칸트', description: '계정 만들어 놓고 까먹은 곳이에요.', url: 'https://iqhina.org/@o', logo: "https://iqhina.org/files/f8433f1c-48f1-4ef5-8aa6-40cc9f254820"},
+        {title: '블루스카이', description: '잘 안 써요.', url: 'https://bsky.app/profile/yume.place', logo: "https://i.imgur.com/gN4l5CC.png"},
         {title: '깃허브', description: '딱히 뭐 없어요.', url: 'https://github.com/Monokii', logo: "/src/assets/services-icon/github-logo-vector.svg"},
         {title: '치지직', description: '흠?', url: 'https://chzzk.naver.com/8ce3e9df8179191c4e412a20065fbe1a', logo: "https://chzzk.org/wp-content/uploads/2023/12/chzzk-app.png"},
-        {title: '유튜브', description: '그냥 링크 걸려고 만들었어요.', url: 'https://www.youtube.com/@yume_place'},
-        {title: '도코도코(다시:돌아옴)', description: '아 nicopatty가 생각나요.', url: 'https://www.nicovideo.jp/user/136988492/video'},
-        {title: '샤오훙수', description: '특정 그림 아티스트 보려고 가입했어요. 241218', url: 'https://www.xiaohongshu.com/user/profile/6761b7480000000018014c9f'},
-        {title: 'X', description: '뭐라고 써야할까', url: 'https://x.com/DowawonJi'},
+        {title: '유튜브', description: '그냥 링크 걸려고 만들었어요.', url: 'https://www.youtube.com/@yume_place', logo: "https://upload.wikimedia.org/wikipedia/commons/f/fd/YouTube_full-color_icon_%282024%29.svg"},
+        {title: '도코도코(다시:돌아옴)', description: '방치 중...', url: 'https://www.nicovideo.jp/user/136988492/video'},
+        {title: '샤오훙수', description: '특정 AI 아티스트 보려고 가입했어요. 241218', url: 'https://www.xiaohongshu.com/user/profile/6761b7480000000018014c9f'},
+        {title: 'X', description: '이상한 사람들 많은 곳.', url: 'https://x.com/DowawonJi'},
         {title: '로블록스 프로필', description: '2017년 1월 부터 시작했어요, 넷카마 아니에요.', url: 'https://www.roblox.com/users/3638705580/profile'},
         {title: '퀘스돈@플래닛', description: '질문 하던말던.', url: 'https://quesdon.planet.moe/@so@uri.life'},
         {title: '네오-퀘스돈', description: '질문 하던말던.', url: 'https://neo-quesdon.serafuku.moe/main/user/@so@uri.life'},
@@ -69,7 +69,7 @@ export default {
       memu : [
         //{title: '링크'},
       ],
-      ver : '12-27-2024-ui',
+      ver : '12-27-2024-ui-3',
     }
   },
 }
@@ -78,8 +78,8 @@ export default {
 <style scoped>
   @import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable.min.css");
   img {
-    width: 38px;
-    height: 38px;
+    width: 40px;
+    border-radius: 8px;
     /* margin-bottom: 6px; */
   }
   .sidebar {
@@ -114,9 +114,9 @@ export default {
     gap: 46px;
   }
   .gnb {
-    background-color: var(--color-background-soft);
+    background-color: var(--vt-c-monoki);
     padding: 6px 14px;
-    border-radius: 10px;
+    border-radius: 12px;
     align-self: center;
     align-items: center;
     /* align-self: center;
@@ -170,9 +170,9 @@ export default {
     align-items: left;
     min-width: 300px;
     max-width: 379px;
-    border-radius: 100px 42px 100px 100px;
+    border-radius: 94px 42px 94px 94px;
     margin-top: 3px;
-    padding: 54px 34px 80px;
+    padding: 60px 34px 72px;
     gap: 20px;
     background-color: var(--color-background-soft);
     border: solid var(--color-background-soft) 1px;
