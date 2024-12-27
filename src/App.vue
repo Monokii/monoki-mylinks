@@ -69,7 +69,7 @@ export default {
       memu : [
         //{title: '링크'},
       ],
-      ver : '12-18-2024',
+      ver : '12-27-2024-ui',
     }
   },
 }
