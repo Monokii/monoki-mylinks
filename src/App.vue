@@ -2,7 +2,7 @@
   <div style="display: flex;">
     <!--
     <div class="sidebar">
-    사이드바 내용
+    사이드바 내용 2024 - 12 - 03
       <h2 style="margin: 5px 14px;">모노키</h2>
       <a>홈</a>
       <a>dkanrjask</a>
@@ -20,14 +20,14 @@
         <h1>링크</h1>
         <p>{{ dec }}</p>
       </div>
-      <div style="display: flex; flex-wrap: wrap; justify-content: space-between; gap: 10px; margin-top: 10px;">
+      <div style="display: flex; flex-wrap: wrap; justify-content: space-between; gap: 20px; margin-top: 32px;">
         <div v-for="(item, i) in link" :key="i" class="linkbox">
           <div class="gap20">
+            <img :src="item.logo">
             <div>
               <h3>{{ item.title }}</h3>
               <p>{{ item.description }}</p>
             </div>
-            <img :src="item.logo">
           </div>
           <a :href="item.url" target="_blank">
             <button>이동</button>
@@ -46,7 +46,7 @@ export default {
   name: 'App',
   data(){
     return {
-      dec : '여기는 모노키의 링크들을 모아둔 곳이에요.<br/>사이트 이름들은 제 마음대로 부를 거예요.',
+      dec : '여기는 링크를 모아둔 곳이에요. 사이트 이름들은 제 마음대로 부를 거예요.',
       link : [
         {title: '우리.인생', description: '제가 주로 톳을 올리는 곳이죠.', url: "https://uri.life/@so", logo: "/src/assets/services-icon/uri-life-logo-vector.svg"},
         {title: '스텔라.플레이스', description: '음.', url: 'https://stella.place/@so', logo: "https://for.stella.place/assets/Stella_R3_iOS_1024.png"},
@@ -67,7 +67,7 @@ export default {
         {title: '실험용2', description: '도메인은 소셜 + 커넥트. TLD는 커뮤니티(co)임.', url: 'https://sonnect.co/'},
       ],
       memu : [
-        {title: '링크'},
+        //{title: '링크'},
       ],
       ver : '12-18-2024',
     }
@@ -78,8 +78,9 @@ export default {
 <style scoped>
   @import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable.min.css");
   img {
-    width: 32px;
-    margin-bottom: 6px;
+    width: 38px;
+    height: 38px;
+    /* margin-bottom: 6px; */
   }
   .sidebar {
   width: 250px; /* 사이드바 너비 */
@@ -110,17 +111,23 @@ export default {
     padding: 0px 20px;
     display: flex;
     flex-direction: column;
-    gap: 24px;
+    gap: 46px;
   }
   .gnb {
-    display: flex;
     background-color: var(--color-background-soft);
-    padding: 2px 20px;
+    padding: 6px 14px;
     border-radius: 10px;
+    align-self: center;
     align-items: center;
     /* align-self: center;
     align-self: start; */
     gap: 14px;
+    transition: 0.3s;
+    cursor: default;
+  }
+  .gnb:hover {
+    background-color: var(--color-background-hover);
+    transform: scale(1.1);
   }
   .gnb a {
     border-radius: 0px;
@@ -145,42 +152,38 @@ export default {
   }
   .head {
     display: flex;
+    align-items: center;
+    gap: 8px;
     flex-direction: column;
-    width: 80%;
   }
   .gap20 {
     display: flex;
     flex-direction: column;
-    gap: 8px;
+    align-items: left;
+    gap: 26px;
   }
-  .linkbox {  
+  .linkbox {
     display: flex;
+    flex-direction: column;
     flex: 1;
     justify-content: space-between;
-    align-items: center;
+    align-items: left;
     min-width: 300px;
-    border-radius: 10px;
-    margin-top: 5px;
-    padding: 14px 18px;
+    max-width: 379px;
+    border-radius: 100px 42px 100px 100px;
+    margin-top: 3px;
+    padding: 54px 34px 80px;
     gap: 20px;
     background-color: var(--color-background-soft);
-    border: solid var(--color-background-mute) 1px;
-    transition: 0.3s;
+    border: solid var(--color-background-soft) 1px;
+    transition: 0.34s;
   }
   .linkbox:hover {
-    display: flex;
-    flex: 1;
-    justify-content: space-between;
-    align-items: center;
-    min-width: 300px;
-    border-radius: 10px;
-    margin-top: 5px;
-    padding: 14px 18px;
-    gap: 20px;
+    border-radius: 52px 100px 52px 52px;
+    margin-top: 3px;
     background-color: var(--color-background-hover);
     border: solid var(--color-background-r) 2px;
-    transition-delay: 1s;
-    transform: scale(1.1);
+    transform: scale(0.91);
   }
   button {
     white-space: nowrap;
@@ -188,15 +191,15 @@ export default {
     cursor: pointer;
     font-size: 16px;
     text-align: center;
-    padding: 10px 16px;
+    padding: 14px 22px;
     border: none;
     border-radius: 30px;
     background-color: var(--color-background-r);
     color: var(--color-background);
     transition: 0.28s;
+    font-weight: 600;
   }
   button:hover {
-    padding: 10px 16px;
     font-weight: 700;
     border: none;
     border-radius: 100px;
@@ -204,8 +207,7 @@ export default {
     transform: scale(1.1);
   }
   button:active {
-    padding: 10px 16px;
-    font-weight: 700;
+    font-weight: 800;
     border: none;
     border-radius: 100px;
     color: var(--color-background);
