@@ -68,7 +68,7 @@ export default {
       memu : [
         //{title: '링크'},
       ],
-      ver : '12-27-2024-ui-3',
+      ver : '12-30-2024-1',
     }
   },
 }
