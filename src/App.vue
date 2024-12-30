@@ -30,7 +30,7 @@
             </div>
           </div>
           <a :href="item.url" target="_blank">
-            <button>이동</button>
+            <button>바로가기</button>
           </a>
         </div>
       </div>
@@ -48,23 +48,22 @@ export default {
     return {
       dec : '여기는 링크를 모아둔 곳이에요. 사이트 이름들은 제 마음대로 부를 거예요.',
       link : [
-        {title: '우리.인생', description: '주로 게시물 올리는 곳.', url: "https://uri.life/@so", logo: "https://i.imgur.com/NDj2OVz.png"},
+        {title: '우리.인생', description: '올리고 싶을 때 올림.', url: "https://uri.life/@so", logo: "https://i.imgur.com/NDj2OVz.png"},
         {title: '스텔라', description: '별이래요.', url: 'https://stella.place/@so', logo: "https://for.stella.place/assets/Stella_R3_iOS_1024.png"},
         {title: '버터스콘', description: '귀여운데, 규칙이 나랑 안 맞음.', url: 'https://buttersc.one/@mono', logo: "https://box.buttersc.one/bucket/c998ed88-0531-4299-b304-c95f60fb1b16.webp"},
-        {title: '표현의 모에', description: '나쁘지 않지만, 쓸지 모르겠어요.', url: 'https://feels.moe/@monoki', logo: "https://files.feels.moe/feelsmoe/fa819c2a-a29d-46db-910f-ef0ebd75b225.png"},
+        {title: '표현의 모에들', description: '나쁘지 않지만, 쓸지 모르겠어요.', url: 'https://feels.moe/@monoki', logo: "https://files.feels.moe/feelsmoe/fa819c2a-a29d-46db-910f-ef0ebd75b225.png"},
         {title: '칸트', description: '계정 만들어 놓고 까먹은 곳이에요.', url: 'https://iqhina.org/@o', logo: "https://iqhina.org/files/f8433f1c-48f1-4ef5-8aa6-40cc9f254820"},
-        {title: '블루스카이', description: '잘 안 써요.', url: 'https://bsky.app/profile/yume.place', logo: "https://i.imgur.com/gN4l5CC.png"},
+        {title: '파하늘', description: '잘 안 써요.', url: 'https://bsky.app/profile/yume.place', logo: "https://i.imgur.com/gN4l5CC.png"},
         {title: '깃허브', description: '딱히 뭐 없어요.', url: 'https://github.com/Monokii', logo: "/src/assets/services-icon/github-logo-vector.svg"},
-        {title: '치지직', description: '흠?', url: 'https://chzzk.naver.com/8ce3e9df8179191c4e412a20065fbe1a', logo: "https://chzzk.org/wp-content/uploads/2023/12/chzzk-app.png"},
-        {title: '유튜브', description: '그냥 링크 걸려고 만들었어요.', url: 'https://www.youtube.com/@yume_place', logo: "https://upload.wikimedia.org/wikipedia/commons/f/fd/YouTube_full-color_icon_%282024%29.svg"},
-        {title: '도코도코(다시:돌아옴)', description: '방치 중...', url: 'https://www.nicovideo.jp/user/136988492/video'},
-        {title: '샤오훙수', description: '특정 AI 아티스트 보려고 가입했어요. 241218', url: 'https://www.xiaohongshu.com/user/profile/6761b7480000000018014c9f'},
-        {title: 'X', description: '이상한 사람들 많은 곳.', url: 'https://x.com/DowawonJi'},
-        {title: '로블록스 프로필', description: '2017년 1월 부터 시작했어요, 넷카마 아니에요.', url: 'https://www.roblox.com/users/3638705580/profile'},
-        {title: '퀘스돈@플래닛', description: '질문 하던말던.', url: 'https://quesdon.planet.moe/@so@uri.life'},
-        {title: '네오-퀘스돈', description: '질문 하던말던.', url: 'https://neo-quesdon.serafuku.moe/main/user/@so@uri.life'},
-        {title: '실험용1', description: '내가 하고싶은 걸 시도해보고, 여러가지를 하는 곳.', url: 'https://yume.place/'},
-        {title: '실험용2', description: '도메인은 소셜 + 커넥트. TLD는 커뮤니티(co)임.', url: 'https://sonnect.co/'},
+        {title: '치지ㅊ직ㅈㅈㅊ', description: '흠?', url: 'https://chzzk.naver.com/8ce3e9df8179191c4e412a20065fbe1a', logo: "https://chzzk.org/wp-content/uploads/2023/12/chzzk-app.png"},
+        {title: '숲프야', description: '안녕. 머독, 비챤 등...', url: 'https://ch.sooplive.co.kr/monoki', logo: "https://i.namu.wiki/i/TdjyiuKhQk8SnlEHVt0hekEIfHCnDGKlR1qGvSBQohuhFlcPYio3dMb60KYZdDxQJiDzfdnb4hESiXz_GqIf7w.svg"},
+        {title: '내 튜브임.', description: '그냥 링크 걸려고 만들었어요.', url: 'https://www.youtube.com/@yume_place', logo: "https://upload.wikimedia.org/wikipedia/commons/f/fd/YouTube_full-color_icon_%282024%29.svg"},
+        {title: 'ㄷㅋㄷㅋ(다시:돌아옴)', description: '방치 중...', url: 'https://www.nicovideo.jp/user/136988492/video', logo: "https://i.namu.wiki/i/GHIaThfebPpxVe8rbu2zx8YqQXe5cnNmmfY32waFRTBROYkjSiwJi3QC87tNxH5rO8Qtvc4tobshoHbv0oP_BCCG_Q7xGxh8fhvuwK_pzJgIhf2Dkjs-gyXstocj9m3IaZ0O6nnBSXnhT2_t7Utzvg.svg"},
+        {title: '사호슈', description: '특정 AI 아티스트 보려고 가입했어요. 241218', url: 'https://www.xiaohongshu.com/user/profile/6761b7480000000018014c9f', logo: "https://upload.wikimedia.org/wikipedia/commons/c/c1/XiaohongshuLOGO.svg"},
+        {title: 'X', description: '이상한 사람들 많은 곳.', url: 'https://x.com/DowawonJi', logo: "https://upload.wikimedia.org/wikipedia/commons/2/21/1690643591twitter-x-logo-png.webp"},
+        {title: '로잼록스 프로필', description: '2017년 1월 부터 시작했어요, 넷카마 아니에요.', url: 'https://www.roblox.com/users/3638705580/profile', logo: "https://static.wikia.nocookie.net/robloxcities/images/d/d2/RobloxLogo.png/revision/latest/scale-to-width-down/1000?cb=20230125021936"},
+        {title: '안 씀1', description: '안 씀.', url: 'https://yume.place/'},
+        {title: '안 씀2', description: '도메인은 소셜 + 커넥트. TLD는 커뮤니티(co)임.', url: 'https://sonnect.co/'},
       ],
       memu : [
         //{title: '링크'},
@@ -78,9 +77,16 @@ export default {
 <style scoped>
   @import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable.min.css");
   img {
-    width: 40px;
-    border-radius: 8px;
+    /* scale: 50%; */
+    width: 52px;
+    border-radius: 10px;
+    transition: 0.4s ease;
     /* margin-bottom: 6px; */
+  }
+  img:active {
+    transform: scale(320%);
+    border-radius: 3px;
+    background-color: #fff;
   }
   .sidebar {
   width: 250px; /* 사이드바 너비 */
@@ -183,7 +189,7 @@ export default {
     margin-top: 3px;
     background-color: var(--color-background-hover);
     border: solid var(--color-background-r) 2px;
-    transform: scale(0.91);
+    transform: scale(1.05);
   }
   button {
     white-space: nowrap;
