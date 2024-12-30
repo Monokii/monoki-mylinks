@@ -48,7 +48,7 @@ export default {
     return {
       dec : '여기는 링크를 모아둔 곳이에요. 사이트 이름들은 제 마음대로 부를 거예요.',
       link : [
-        {title: '우리.인생', description: '올리고 싶을 때 올림.', url: "https://uri.life/@so", logo: "https://i.imgur.com/NDj2OVz.png"},
+        {title: '우리.인생', description: '올리고 싶을 때 올림.', url: "https://uri.life/@so", logo: "https://i.imgur.com/uc6LA96.png"}, //https://i.imgur.com/NDj2OVz.png
         {title: '스텔라', description: '별이래요.', url: 'https://stella.place/@so', logo: "https://for.stella.place/assets/Stella_R3_iOS_1024.png"},
         {title: '버터스콘', description: '귀여운데, 규칙이 나랑 안 맞음.', url: 'https://buttersc.one/@mono', logo: "https://box.buttersc.one/bucket/c998ed88-0531-4299-b304-c95f60fb1b16.webp"},
         {title: '표현의 모에들', description: '나쁘지 않지만, 쓸지 모르겠어요.', url: 'https://feels.moe/@monoki', logo: "https://files.feels.moe/feelsmoe/fa819c2a-a29d-46db-910f-ef0ebd75b225.png"},
@@ -68,7 +68,7 @@ export default {
       memu : [
         //{title: '링크'},
       ],
-      ver : '12-30-2024-1',
+      ver : '12-31-2024',
     }
   },
 }
@@ -189,7 +189,7 @@ export default {
     margin-top: 3px;
     background-color: var(--color-background-hover);
     border: solid var(--color-background-r) 2px;
-    transform: scale(1.05);
+    transform: scale(1.03);
   }
   button {
     white-space: nowrap;
