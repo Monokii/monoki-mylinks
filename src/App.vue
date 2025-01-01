@@ -23,14 +23,14 @@
       <div style="display: flex; flex-wrap: wrap; justify-content: space-between; gap: 20px; margin-top: 32px;">
         <div v-for="(item, i) in link" :key="i" class="linkbox">
           <div class="gap20">
-            <img :src="item.logo">
+            <img :src="item.logo" :alt="item.title" />
             <div style="display: flex; flex-direction: column; gap: 5px;">
               <h3>{{ item.title }}</h3>
               <p>{{ item.description }}</p>
             </div>
           </div>
           <a :href="item.url" target="_blank">
-            <button>바로가기</button>
+            <button><a>바로가기</a></button>
           </a>
         </div>
       </div>
@@ -48,7 +48,7 @@ export default {
     return {
       dec : '여기는 링크를 모아둔 곳이에요. 사이트 이름들은 제 마음대로 부를 거예요.',
       link : [
-        {title: '우리.인생', description: '올리고 싶을 때 올림.', url: "https://uri.life/@so", logo: "https://i.imgur.com/uc6LA96.png"}, //https://i.imgur.com/NDj2OVz.png
+        {title: '우리.인생', description: '올리고 싶을 때 올림.', url: "https://uri.life/@so", logo: "https://i.imgur.com/YTFDDCs.png",}, //https://i.imgur.com/NDj2OVz.png, https://i.imgur.com/uc6LA96.png
         {title: '비발디 소셜', description: '한국인 얼마나 있을까 궁금.', url: "https://social.vivaldi.net/@Vivawa", logo: "https://i.imgur.com/KzPbRWO.png"},
         {title: '스텔라', description: '별이래요.', url: 'https://stella.place/@so', logo: "https://for.stella.place/assets/Stella_R3_iOS_1024.png"},
         {title: '버터스콘', description: '귀여운데, 규칙이 나랑 안 맞음.', url: 'https://buttersc.one/@mono', logo: "https://box.buttersc.one/bucket/c998ed88-0531-4299-b304-c95f60fb1b16.webp"},
@@ -69,7 +69,7 @@ export default {
       memu : [
         //{title: '링크'},
       ],
-      ver : '12.31.2024(+u2, +l1)',
+      ver : '12.31.2024(+u3, +l1)',
     }
   },
 }
@@ -222,7 +222,6 @@ export default {
     font-weight: 600;
   }
   button:hover {
-    font-weight: 700;
     border: none;
     border-radius: 100px;
     color: var(--color-background);
@@ -235,5 +234,11 @@ export default {
     color: var(--color-background);
     opacity: 80%;
     transform: scale(0.94);
+  }
+  button a {
+    font-weight: 700;
+  }
+  button a:hover {
+    font-weight: 700;
   }
 </style>
