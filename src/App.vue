@@ -72,7 +72,7 @@ export default {
       memu : [
         //{title: '링크'},
       ],
-      ver : '12.31.2024(+u3, +l1)',
+      ver : '12.31.2024(+u4, +l1)',
       font : 'SUIT',
     }
   },
