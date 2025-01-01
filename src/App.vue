@@ -53,7 +53,7 @@ export default {
   data(){
     return {
       dec : '여기는 링크를 모아둔 곳이에요. 사이트 이름들은 제 마음대로 부를 거예요.',
-      link : [
+      link : [ //profileimg는 avatar로 변경, 프로필 이미지는 imgur로 이전(요청으로 인한 비용 줄이기 위함 <- 사이트 운영자들.(내가 지금 하기에는 너무 귀찮아. 그리고, 졸려.)) - 예정.
         {title: '우리.인생', description: '올리고 싶을 때 올림.', url: "https://uri.life/@so", logo: "https://i.imgur.com/YTFDDCs.png", profileimg: "https://life.uricdn.one/accounts/avatars/113/457/362/915/724/781/original/dda5f3e51c12df1d.png", profilealt: '',}, //https://i.imgur.com/NDj2OVz.png, https://i.imgur.com/uc6LA96.png
         {title: '비발디 소셜', description: '한국인 얼마나 있을까 궁금.', url: "https://social.vivaldi.net/@Vivawa", logo: "https://i.imgur.com/KzPbRWO.png", profileimg: "https://social-cdn.vivaldi.net/system/accounts/avatars/113/753/934/146/067/044/original/e52c4d59647eb912.png", profilealt: '',},
         {title: '스텔라', description: '별이래요.', url: 'https://stella.place/@so', logo: "https://for.stella.place/assets/Stella_R3_iOS_1024.png", profileimg: "https://stella.place/proxy/avatar.webp?url=https%3A%2F%2Ffor.stella.place%2FD1%2Fwebpublic-af753ecc-331d-4cbd-83eb-3e4188f95964.webp&avatar=1", profilealt: '',},
