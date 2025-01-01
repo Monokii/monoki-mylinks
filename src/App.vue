@@ -35,7 +35,10 @@
         </div>
       </div>
     </div>
-    <a>버전: {{ ver }}</a>
+    <div style="display: flex; justify-content: space-between;">
+      <a>버전: {{ ver }}</a>
+      <a>타입페이스: {{ font }}</a>
+    </div>
   </div>
   </div>
 
@@ -70,13 +73,14 @@ export default {
         //{title: '링크'},
       ],
       ver : '12.31.2024(+u3, +l1)',
+      font : 'SUIT',
     }
   },
 }
 </script>
 
 <style scoped>
-  @import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable.min.css");
+  @import url("https://cdn.jsdelivr.net/gh/sun-typeface/SUIT@2/fonts/variable/woff2/SUIT-Variable.css");
   .logo {
     transform: scale(100%);
     transition: 0.6s ease;
@@ -98,12 +102,12 @@ export default {
     transition: 0.5s ease;
     /* margin-bottom: 6px; */
   }
-  img:active {
+  /* img:active {
     transform: scale(323%);
     border-radius: 8px;
     background-color: #f9faff;
     padding: 5px;
-  }
+  } */
   .sidebar {
   width: 250px; /* 사이드바 너비 */
   height: 100vh; /* 화면 전체 높이 */
@@ -199,6 +203,9 @@ export default {
     background-color: var(--color-background-soft);
     border: solid var(--color-background-soft) 1px;
     transition: 0.34s;
+    h3 {
+      transition: 0.3s;
+    }
   }
   .linkbox:hover {
     border-radius: 52px 100px 52px 52px;
@@ -206,6 +213,12 @@ export default {
     background-color: var(--color-background-hover);
     border: solid var(--color-background-r) 2px;
     transform: scale(1.03);
+    img {
+      transform: scale(1.14);
+    }
+    h3 {
+      null: null;
+    }
   }
   button {
     white-space: nowrap;
