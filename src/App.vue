@@ -77,7 +77,7 @@ export default {
       memu : [
         //{title: '링크'},
       ],
-      ver : '1.3.2025(+u2)',
+      ver : '1.3.2025(+u3)',
       font : 'SUIT',
     }
   },
@@ -85,7 +85,7 @@ export default {
 </script>
 
 <style scoped>
-  @import url("https://cdn.jsdelivr.net/gh/sun-typeface/SUIT@2/fonts/variable/woff2/SUIT-Variable.css");
+@import url("https://cdn.jsdelivr.net/gh/sun-typeface/SUIT@2/fonts/variable/woff2/SUIT-Variable.css");
   .logo {
     transform: scale(100%);
     transition: 0.6s ease;
