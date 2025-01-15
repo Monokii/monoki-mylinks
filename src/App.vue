@@ -64,21 +64,21 @@ export default {
         //{title: '칸트', description: '계정 만들어 놓고 까먹은 곳이에요.', url: 'https://iqhina.org/@o', logo: "https://iqhina.org/files/f8433f1c-48f1-4ef5-8aa6-40cc9f254820", avatar: "https://i.imgur.com/hiqvDqL.png", profilealt: '',}, // 개인이 운영하는 소셜으로 보입니다 - 2024.1.2.부터 @o 아바타는 imgur에서 불러옵니다.
         {title: 'X', description: '이상한 사람들 많은 곳.', url: 'https://x.com/DowawonJi', logo: "https://upload.wikimedia.org/wikipedia/commons/2/21/1690643591twitter-x-logo-png.webp", avatar: "https://abs.twimg.com/sticky/default_profile_images/default_profile_400x400.png", profilealt: '',}, //x96: https://abs.twimg.com/sticky/default_profile_images/default_profile_x96.png
         //{title: '사호슈', description: '특정 AI 아티스트 보려고 가입했어요. 241218', url: 'https://www.xiaohongshu.com/user/profile/6761b7480000000018014c9f', logo: "https://upload.wikimedia.org/wikipedia/commons/c/c1/XiaohongshuLOGO.svg", avatar: "https://sns-avatar-qc.xhscdn.com/avatar/1040g2jo31bvbukb5h00g5pr1mt462j4vq9d697o?imageView2/2/w/540/format/webp|imageMogr2/strip2", profilealt: '도와원지',},
-        {title: 'bsky', description: '잘 안 써요.', url: 'https://bsky.app/profile/yume.place', logo: "https://i.imgur.com/gN4l5CC.png"},
+        //{title: 'bsky', description: '잘 안 써요.', url: 'https://bsky.app/profile/yume.place', logo: "https://i.imgur.com/gN4l5CC.png"},
         //{title: '깃허브', description: '딱히 뭐 없어요.', url: 'https://github.com/Monokii', logo: "https://i.imgur.com/NGvZ0c5.png", avatar: "https://avatars.githubusercontent.com/u/71020988?v=4", profilealt: '',},
         //{title: '유저들이 웹 스타일 공유하는 세상', description: '그냥 유저 페이지예요.', url: 'https://userstyles.world/user/Monokii', logo: "https://i.imgur.com/nKNveFi.png", avatar: "", profilealt: '',},
         //{title: '치지직', description: '숲프야들이 치지직으로 왔으면 좋겠다.', url: 'https://chzzk.naver.com/8ce3e9df8179191c4e412a20065fbe1a', logo: "https://chzzk.org/wp-content/uploads/2023/12/chzzk-app.png", avatar: "https://nng-phinf.pstatic.net/MjAyNDExMjVfMTYw/MDAxNzMyNTQzNzI0NzEy.oBAql7C8HavBSCxN0vDUfV2twfN_XRGsHhDERsxJrzQg.EvZc3qTdpWwtsYgOT9C-OVPLh9rTAJ2wW0ZOUcvIqPgg.PNG/Bato-800x.png?type=f120_120_na", profilealt: 'Monoki',},
         //{title: '숲프야', description: '안녕. 머독, 비챤 등...', url: 'https://ch.sooplive.co.kr/monoki', logo: "https://i.namu.wiki/i/8ASZvdHLwpdoP70VcLYL5Xkvw5B_udlhQ5ONgMTrr7h3nrOIn0otHti7aB9GvT4otdOcRe3s_GfCUu4a4BqpPGGHCD0fIrie7Z5F56Aqg7AO8FwvGHJZGubFp1b3zFJFMFXA_GoBeAxTHaTOEaJDzw.svg", avatar: "https://profile.img.sooplive.co.kr/LOGO/mo/monoki/monoki.jpg", profilealt: '',},
         //{title: '내 튜브임.', description: '그냥 링크 걸려고 만들었어요.', url: 'https://www.youtube.com/@dowawonji', logo: "https://upload.wikimedia.org/wikipedia/commons/f/fd/YouTube_full-color_icon_%282024%29.svg", avatar: "https://yt3.googleusercontent.com/ytc/AIdro_l3Bz6doyOqmxnbxC7YTPEYDkB4EqydIAMsbEUjvC3cQlxG46o=s160-c-k-c0x00ffffff-no-rj", profilealt: '',},
-        {title: 'ㄴㅋㄴㅋ(다시:돌아옴)', description: '방치 중...', url: 'https://www.nicovideo.jp/user/136988492/video', logo: "https://i.namu.wiki/i/eSuSYZDps8qnJws8bGQH8Ii-J5s9X5dt_F-BJle5EtFnH6AaTMoDspNaEJhExOEfXPvdi1uAJkN6VEEuKTYMRR7Hm1kBQPPAP2Uc72dveWFz-uuQyQcbyqTWi4lipb4Z6y6XUhEhvNdWxB0GB09_8g.svg", avatar: "https://secure-dcdn.cdn.nimg.jp/nicoaccount/usericon/defaults/blank.jpg", profilealt: '',},
+        //{title: 'ㄴㅋㄴㅋ(다시:돌아옴)', description: '방치 중...', url: 'https://www.nicovideo.jp/user/136988492/video', logo: "https://i.namu.wiki/i/eSuSYZDps8qnJws8bGQH8Ii-J5s9X5dt_F-BJle5EtFnH6AaTMoDspNaEJhExOEfXPvdi1uAJkN6VEEuKTYMRR7Hm1kBQPPAP2Uc72dveWFz-uuQyQcbyqTWi4lipb4Z6y6XUhEhvNdWxB0GB09_8g.svg", avatar: "https://secure-dcdn.cdn.nimg.jp/nicoaccount/usericon/defaults/blank.jpg", profilealt: '',},
         {title: '로블록스 프로필', description: '2017년 1월 부터 시작했어요, 넷카마 아니에요.', url: 'https://www.roblox.com/users/3638705580/profile', logo: "https://i.imgur.com/K5BwNkL.png", avatar: "https://tr.rbxcdn.com/30DAY-AvatarHeadshot-EAF040F46126B833E76BDA5D6DDA1450-Png/150/150/AvatarHeadshot/Webp/noFilter ", profilealt: '',},
         //{title: '안 씀1', description: '안 씀.', url: 'https://yume.place/'},
-        {title: '안 씀2', description: '도메인은 소셜 + 커넥트. TLD는 커뮤니티(co)임.', url: 'https://sonnect.co/'},
+        //{title: '안 씀2', description: '도메인은 소셜 + 커넥트. TLD는 커뮤니티(co)임.', url: 'https://sonnect.co/'},
       ],
       memu : [
         //{title: '링크'},
       ],
-      ver : '1.3.2025(+u3 +l1)',
+      ver : '1.3.2025(+u3)',
       font : 'SUIT',
     }
   },
